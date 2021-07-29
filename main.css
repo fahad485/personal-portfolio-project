@@ -1,0 +1,849 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    
+}
+
+
+.navbar{
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    padding: 15px 0px;
+    width: 100%;
+    
+    
+    
+}
+
+.logo{
+    width: 25%;
+    padding-left: 65px;
+    padding-top: 3px;
+    box-sizing: border-box;
+    
+    
+}
+
+
+.logo a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 0px 8px;
+    padding: 6px 10px;
+    font-size: 28px;
+    background-color: white;
+    transition: .6s ease all;
+    
+}
+
+.logo a:hover{
+    background-color:black;
+    color: white;
+    border-radius: 8px 0px;
+    
+    
+}
+
+.nav-items{
+    width: 40%;
+    float: right;
+    
+    
+    
+    
+}
+.nav-items ul{
+    display: flex;
+    padding-left:170px ;
+    padding-top: 10px;
+    
+    
+}
+.nav-items ul li{
+    padding-right:40px ;
+}
+
+.nav-items ul li a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-weight: bold;
+    transition: .5s ease all; 
+    padding: 8px;
+    
+}
+
+ul li a:hover{
+    background-color: burlywood;
+    color: black;
+    
+    
+}
+
+
+.contact-me{
+ padding-left: 320px;
+    
+   
+    
+}
+
+.contact-me a{
+    text-decoration: none;
+    color: blanchedalmond;
+    float: right;
+    border: 1px solid rgb(44, 42, 42);
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-weight: bold;
+    transition: .5s ease all; 
+}
+
+.contact-me a:hover{
+    background-color: blanchedalmond;
+    color: black;
+   
+}
+
+.hero{
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    color: white;
+    padding:176px 161px ;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(46, 44, 44);
+    border-top: 1px solid rgb(19, 18, 18);
+    overflow: hidden;
+    
+}
+
+.line-1{
+    border-top: 3px solid red;
+}
+
+.name{
+    box-sizing: border-box;
+    width: 55%;
+    
+}
+
+.name h2{
+    padding-bottom: 35px;
+    font-size: 40px;
+}
+.name-lock{
+    color: white;
+    border: 1px solid rgb(148, 61, 61);
+    background-color: rgb(255, 0, 0);
+}
+
+.name-lock a{
+    text-decoration: none;
+    color: white;
+    transition: .5s ease all; 
+}
+
+
+
+.developer{
+    width: 53%;
+    box-sizing: border-box;
+}
+
+.developer p{
+    padding-bottom: 50px;
+    letter-spacing: 1px;
+    
+}
+
+.portfolio a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid grey;
+    padding: 8px 25px;
+    background-color: rgb(15, 15, 15);
+    font-weight: bold;
+    transition: .5s ease all; 
+}
+
+.portfolio a:hover{
+    color: rgb(3, 3, 3);
+    background-color: rgb(197, 184, 184)
+    
+
+}
+
+.hero img{
+    width: 444px;
+    height: 581px;
+    position: relative;
+    left: 540px;
+    bottom: 370px;
+    
+}
+
+
+
+/**********************procects css starts*********************/
+
+.project{
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    height: 1550px;
+    background-color: rgb(8, 8, 8);
+    font-family: arial ;
+    
+}
+
+.section-1 h2{
+    color: rgb(36, 34, 34);
+    font-size: 170px;
+    float: right;
+    padding-right: 70px;
+    padding-top: 30px;
+}
+.section-2{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: -41px;
+    left: 180px;
+   
+    
+
+}
+.sub_section-1{
+    width: 45%;
+    height: 669px;
+    box-sizing: border-box;
+    border: 1px solid rgb(63, 58, 58);
+    overflow: hidden;
+    background-color: rgb(29, 29, 36);
+}
+.img-1{
+    width: 490px;
+    height: 500px;
+}
+
+.sub_section-1 a{
+    text-decoration: none;
+    color: grey;
+    font-size: 25px;
+    
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 7px;
+}
+
+.sub_section-1 p{
+    color: grey;
+    font-size: 16px;
+    text-align: justify;
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+.sub_section-2{
+    width: 25%;
+    height: 335px;
+    box-sizing: border-box;
+    border: 1px solid rgb(63, 58, 58);
+    overflow: hidden;
+    background-color: rgb(29, 29, 36);
+}
+.img-2{
+    width: 290px;
+    height: 230px;
+}
+
+.sub_section-2 a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+   
+}
+
+.sub_section-2 p{
+    color: grey;
+    font-size: 16px;
+    padding-top: 8px;
+    padding: 7px;
+    box-sizing: border-box;
+    text-align: justify;
+    
+}
+
+.sub_section-3{
+    width: 25%;
+    height: 335px;
+    box-sizing: border-box;
+    border: 1px solid rgb(63, 58, 58);
+    overflow: hidden;
+    position: relative;
+    top: 334px;
+    right: 338px;
+    background-color: rgb(29, 29, 36);
+}
+.img-3{
+    width: 320px;
+    height: 240px;
+}
+
+.sub_section-3 a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    
+   
+}
+
+.sub_section-3 p{
+    color: grey;
+    font-size: 16px;
+    padding-top: 8px;
+    padding: 7px;
+    box-sizing: border-box;
+    text-align: justify;
+    
+}
+
+
+/**********************procects css end*********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************about me css end*********************/
+
+
+.about-me{
+   overflow: hidden;
+   font-family: arial  ;
+   
+}
+.about_section-1 h2{
+    color: rgb(36, 34, 34);
+    font-size:170px ;
+    padding-top: 440px;
+    text-align: center;
+}
+
+.about-bio{
+    color: aliceblue;
+    width: 10%;
+    position: relative;
+    left: 200px;
+    top: 35px;
+}
+
+.about-icon a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid grey;
+    padding: 10px 12px;
+    position: relative;
+    left: 200px;
+    top: 85px;
+    transition: .5s ease all;
+}
+.about-icon a:hover{
+    background-color: rgb(236, 229, 167);
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    border-color: rgb(209, 18, 92);
+    border-radius: 19px;
+    
+    
+}
+
+.about-icon a i{
+    color: rgb(200, 20, 20);
+    padding-right: 10px;
+    transition: .5s ease all;
+}
+.about-icon a i:hover{
+    color: lightcoral;
+    transform: rotate(180deg);
+    
+}
+
+
+.bio-para{
+    width: 50%;
+    height: 400px;
+    box-sizing: border-box;
+    padding: 50px;
+    text-align: justify;
+    float: right;
+    position: relative;
+    right: 160px;
+    bottom: 80px;
+
+}
+.bio-para p{
+    color: white;
+}
+
+.line{
+    width: 90%;
+    height: 0px;
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    position: relative;
+    left: 60px;
+    bottom: 187px;
+    border-top: 1px solid rgb(251, 0, 0);
+}
+
+
+/**********************about me css end*********************/
+
+
+
+
+
+
+
+
+
+
+/**********************skill starts*********************/
+
+.section-3{
+    background-color: black;
+    height: 1500px;
+    
+    font-family: arial;
+}
+
+.section-gap{
+    width: 650px;
+    height: 300px;
+    background-color: rgb(19, 17, 17);
+    position: relative;
+    top: 120px;
+    overflow: hidden;
+}
+
+
+
+
+.section-3_part-1{
+    width: 314px;
+    height: 340px;
+    background-color: rgb(199, 33, 33);
+    position: absolute;
+    top: 2420px;
+    left: 135px;
+    display: inline-block;
+    border-left: 4px solid red;
+    
+}
+
+.section-3_part-1 a{
+    color: rgb(219, 203, 203);
+    font-size: 48px;
+    position: relative;
+    left: 135px;
+    top: 65px;
+    transition: .5s ease all;
+}
+
+.section-3_part-1 a :hover{
+    
+    color: black;
+}
+
+.section-3_part-1 h2{
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+
+.section-3_part-1 p{
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 35px;
+   
+}
+
+
+
+
+.section-3_part-2{
+    width: 314px;
+    height: 340px;
+    position: absolute;
+    left: 490px;
+    top: 2420px;
+    background-color: white;
+    border-left: 4px solid red;
+    
+}
+
+.section-3_part-2 a{
+    color: rgb(251, 0, 0);
+    font-size: 48px;
+    position: relative;
+    left: 135px;
+    top: 65px;
+}
+
+.section-3_part-2 a :hover{
+    transform: rotate(360deg);
+    color: black;
+}
+
+.section-3_part-2 h2{
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(2, 1, 1);
+}
+
+.section-3_part-2 p{
+    color: rgb(7, 7, 7);
+    text-align: center;
+    box-sizing: border-box;
+    padding: 35px;
+   
+}
+
+
+.section-3_part-3{
+    width: 314px;
+    height: 340px;
+    position: absolute;
+    left: 850px;
+    top: 2420px;
+    background-color: white;
+    border-left: 4px solid red;
+}
+
+
+.section-3_part-3 a{
+    color: rgb(255, 0, 0);
+    font-size: 48px;
+   position: relative;
+   left: 135px;
+   top: 65px;
+}
+
+.section-3_part-3 a :hover{
+    transform: rotate(360deg);
+    color: black;
+}
+
+.section-3_part-3 h2{
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(8, 8, 8);
+}
+
+.section-3_part-3 p{
+    color: rgb(8, 8, 8);
+    text-align: center;
+    box-sizing: border-box;
+    padding: 35px;
+   
+}
+
+
+
+.skill h2{
+    color: rgb(36, 34, 34);
+    font-size: 160px;
+    padding-top: 181px;
+    float: right;
+    
+}
+
+
+
+
+
+/***********************skill end*********************/
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************contacts starts*********************/
+
+.gap-1{
+    width: 650px;
+    height: 780px;
+    background-color: #131111;
+    position: absolute;
+    top: 2935px;
+    left: 698px;
+}
+
+
+.contact-logo{
+    color: rgb(36, 34, 34);
+    font-size: 69px;
+    
+}
+
+.contact-logo h2{
+    display: inline-block;
+    transform: rotate(-90deg);
+    position: relative;
+    left: 920px;
+    top: 425px;
+}
+
+
+
+
+
+
+/***********************contacts end*********************/
+
+
+
+
+
+
+
+
+
+
+/***********************form starts*********************/
+
+
+
+.box{
+    position: absolute;
+    top: 3127px;
+    left: 563px;
+    width: 620px;
+    height: 678px;
+    background-color: white;
+    padding: 40px;
+    box-sizing: border-box;
+    border-left: 4px solid red;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+
+
+}
+
+
+.box h2{
+    margin: 0 0 40px;
+    padding: 0;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 40px;
+
+}
+
+.box input{
+    padding: 10px 0;
+    margin-bottom: 50px;
+}
+
+.box textarea{
+    height: 80px;
+    padding: 10px 0;
+    margin-bottom: 40px;
+}
+
+.box input, .box textarea{
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #999;
+}
+
+
+.box input[type="submit"] {
+    border-bottom: none;
+    cursor: pointer;
+    background-color: #f7497d ;
+    color: #fff;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    width: 35%;
+    position: relative;
+    left: 170px;
+    transition: .4s ease all;
+}
+
+.box input[type="submit"]:hover{
+    background-color: rgb(233, 196, 95);
+    color:black ;
+    font-weight: bold;
+}
+
+.box form{
+   padding-top: 80px;
+}
+
+.box form div{
+    position: relative;
+}
+
+.box form div label{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: #999;
+    transition: .5s;
+    pointer-events: none;
+}
+
+
+.box input:focus ~ label, 
+.box textarea:focus ~ label,
+.box input:valid ~ label, 
+.box textarea:valid ~ label
+{
+    top: -12px;
+    left: 0;
+    color: #f7497d;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.box input:focus,
+.box textarea:focus,
+.box input:valid,
+.box textarea:valid
+{
+   border-bottom: 2px solid #f7497d ;
+}
+
+
+
+
+
+
+
+
+/***********************forms end*********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************contact starts*********************/
+
+.section-3 .hire-me{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    left: 200px;
+    top: 3250px;
+}
+
+.section-3 .hire-me h5{
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+
+
+.section-3 .hire-me .contact-icons{
+    margin-top: 50px;
+    font-size: 18px;
+    
+    
+    
+}
+
+
+
+.section-3 .hire-me .contact-icons a i{
+    color: rgb(0, 0, 0);
+    border: 1px solid whitesmoke;
+    border-radius: 49%;
+    padding: 10px 12px;
+    background-color: white;
+    transition: .3s ease all;
+    
+}
+
+.section-3 .hire-me .contact-icons a i:hover{
+    background-color:rgb(212, 50, 21) ;
+    color: whitesmoke;
+    font-size: 18px ;
+    transform: rotate(360deg);
+    
+}
+
+
+.contact-icons a {
+    padding-right: 15px;
+}
+
+
+.section-3 .hire-me h4{
+    color: black;
+    font-size: 12px;
+    position: absolute;
+    top: 500px;
+    font-weight: bold;
+}
+
+
+
+
+/***********************contact end*********************/
+
+
+
