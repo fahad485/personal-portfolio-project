@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: arial;
+    box-sizing: border-box;
     
 }
 
@@ -12,6 +13,7 @@
     display: flex;
     padding: 15px 0px;
     width: 100%;
+    
     
     
     
@@ -109,81 +111,65 @@ ul li a:hover{
 }
 
 .hero{
-    background-color: black;
-    width: 100%;
-    height: 600px;
-    color: white;
-    padding:176px 161px ;
-    box-sizing: border-box;
-    border-bottom: 1px solid rgb(46, 44, 44);
-    border-top: 1px solid rgb(19, 18, 18);
+    background-color:black;
+}
+.hero_content{
+    width: 50%;
+    float: left;
     overflow: hidden;
-    
+    margin-left: 10%;
+    margin-top: 170px;
+    color: #fff;
 }
-
-.line-1{
-    border-top: 3px solid red;
-}
-
-.name{
-    box-sizing: border-box;
-    width: 55%;
-    
-}
-
-.name h2{
-    padding-bottom: 35px;
+.hero_content h2{
+    padding: 20px 0px;
     font-size: 40px;
+    line-height: 50px;
 }
-.name-lock{
-    color: white;
-    border: 1px solid rgb(148, 61, 61);
-    background-color: rgb(255, 0, 0);
+.hero_content p{
+    font-size: 16px;
+    padding-bottom: 20px;
 }
-
 .name-lock a{
+    background-color: red;
     text-decoration: none;
-    color: white;
-    transition: .5s ease all; 
+    color: #fff;
 }
 
 
-
-.developer{
-    width: 53%;
-    box-sizing: border-box;
-}
-
-.developer p{
-    padding-bottom: 50px;
-    letter-spacing: 1px;
-    
+.portfolio{
+    border: 1px solid grey;
+    display: inline-block;
+    padding: 8px 22px;
+   transition: .5s ease all;
 }
 
 .portfolio a{
     text-decoration: none;
     color: white;
-    border: 1px solid grey;
-    padding: 8px 25px;
-    background-color: rgb(15, 15, 15);
-    font-weight: bold;
-    transition: .5s ease all; 
+
 }
 
-.portfolio a:hover{
-    color: rgb(3, 3, 3);
-    background-color: rgb(197, 184, 184)
+.portfolio:hover{
+    background-color: grey;
     
-
+   
 }
 
-.hero img{
-    width: 444px;
-    height: 581px;
+.hero_image{
+    width: 40%;
+    overflow: hidden;
+}
+.hero_image img{
     position: relative;
-    left: 540px;
-    bottom: 370px;
-    
+    top: 35px;
+}
+
+
+.line-1{
+    width: 90%;
+    margin: auto;
+    border: 1px solid red;
 }
 
 
@@ -847,3 +833,29 @@ ul li a:hover{
 
 
 
+/***********************Media querry start*********************/
+
+@media only screen and (max-width:400px){
+
+    .hero_content {
+        width: 100%;
+        float: left;
+        overflow: hidden;
+        color: #fff;
+        margin-left: 0;
+        margin-top: 0;
+        position: relative;
+        top: 500px;
+        text-align: center;
+        padding: 0px 27px;
+    }
+
+    .hero_image {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        bottom: 437px;
+    }
+   
+
+}
