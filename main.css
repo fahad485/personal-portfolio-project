@@ -6,6 +6,14 @@
     
 }
 
+.abc{
+    margin: auto;
+}
+
+
+   
+  
+
 
 .navbar{
     background-color: black;
@@ -84,7 +92,9 @@ ul li a:hover{
     
     
 }
-
+.fahad{
+    margin-left: 50px;
+}
 
 .contact-me{
  padding-left: 320px;
